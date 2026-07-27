@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+#grid{
+	background-color:green;
+	display:grid;
+}
+.one{
+	display:grid;
+	grid-column:1/5;
+
+	height:40px;
+	
+}
+.two{
+	display:grid;
+	grid-row:2/6;
+}
+.three{
+	display:grid;
+	grid-column:2/3;
+	height:40px;
+
+	
+	
+}
+.four{
+	display:grid;
+	grid-column:3/5;
+	height:40px;
+}
+.five{
+	display:grid;
+	grid-column:2/4;
+	height:40px;
+	
+}
+.ten{
+	display:grid;
+	grid-column:2/5;
+	height:40px;
+	
+}
+.seven{
+	height:40px;
+}
+.eight{
+	height:40px;
+}
+.nine{
+	height:40px;
+}
+#grid > div {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
