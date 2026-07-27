@@ -26,11 +26,6 @@
 .ten {
     grid-column: span 3;
 }
-.three{
-	display:grid;
-	grid-column:2/3;
-	height:40px;
-}
 
 #grid > div {
     border: 2px solid white;
